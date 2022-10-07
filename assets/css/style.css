@@ -1,0 +1,261 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ion-icon{
+    font-size: 22px;   
+}
+
+/* inicio cabecalho */
+.cabecalho{
+    background-color: rgba(255, 255, 255, 1);
+
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    
+    height: 54px;
+    width: 100%;
+    
+    justify-content: space-around;
+    align-items: center;
+
+    border: 1px solid #DBDBDB
+}
+.logomobile{
+    display: none;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo hr{
+    width: 1px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    border: none;
+    background-color: #DBDBDB;
+}
+
+.searchBar{
+    width: 215px;
+    height: 26px;
+
+    font-size: 12px;
+
+    color: #979797;
+
+    display: flex;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+}
+
+.searchBar::placeholder{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    width: 108px;
+    justify-content: space-between;
+}
+/* fim cabecalho */
+
+.content{
+    margin: 55px 0;
+    display: flex;
+    justify-content: center;
+
+    background-color: #fbfbfb;
+
+    max-height: 1950px;
+}
+
+/* inicio css stories */
+.stories{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+
+    overflow: hidden;
+    
+    width: 614px;
+    height: 118px;
+
+    background-color: #ffffff;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+    
+    margin-top: 34px;
+
+    padding-left: 18px;
+
+    align-items: center;
+}
+.stories>div{
+    justify-content: center;
+    align-items: center;
+
+    max-width: 66px;
+
+    margin-right: 18px;
+}
+
+.seta{
+    position: absolute;
+    right: 10px;
+    z-index: 3;
+}
+
+.stories div{
+    position: relative;
+    
+    font-size: 12px;
+    text-align: center;
+
+    margin-right: 13px;
+}
+.postImage{
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    right: 5px;
+}
+/* fim stories */
+
+/* inicio css posts */
+.posts{
+    background-color: #ffffff;
+
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+
+    margin-top: 24px;
+    margin-bottom: 60px;
+    
+    overflow: hidden;
+}
+.posts ion-icon{
+    margin-right: 5px;
+}
+.posts p{
+    font-size: 14px;
+}
+
+.posts div div:nth-child(1){
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+.posts div div:nth-child(1) img{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 32px;
+}
+.posts div div:nth-child(1) p{
+    margin-top: 10px;
+
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.posts div div:nth-child(3){
+    display: flex;
+}
+
+.likes{
+    margin-left: 10px;
+    display: flex;
+
+    margin-bottom: 13px;
+    align-items: center;
+}
+.likes p{
+    margin-left: 5px;
+    font-size: 14px;
+}
+.likes b{
+    font-weight: bold;
+}
+
+.likes div:nth-child(2){
+    margin-right: 20px;
+}
+/* fim css posts */
+
+/* inicio css conteudo a direita */
+.sidebar{
+    margin-left: 29px;
+    margin-top: 57px;
+
+    font-size: 14px;
+
+    width: 293px;
+}
+.sidebar h1{
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.sidebar p{
+    font-weight: 400;
+    color: #8e8e8e;
+}
+.sidebar h2{
+    font-size: 12px;
+    color: #139EF2;
+}
+.sidebar hr{
+    background-color: #fafafa;
+
+    border: none;
+
+    margin-top: 11px;
+    margin-bottom: 4px;
+}
+
+.sidebar div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+.sidebar div:nth-child(2){
+    margin-left: 17px;
+}
+
+.sugestoes{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 18px;
+}
+.sugestoes h1{
+    text-align: right;
+}
+
+.follow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 16px;
+}
+.follow div:nth-child(2){
+    margin-left: 11px;
+}
