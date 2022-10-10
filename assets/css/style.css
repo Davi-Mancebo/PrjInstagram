@@ -5,6 +5,21 @@ ion-icon{
     font-size: 22px;   
 }
 
+h3{
+    margin-top: 33px;
+
+    font-weight: 400;
+    font-size: 11px;
+    color: #c7c7c7;
+}
+h4{
+    margin-top: 18px;
+
+    font-weight: 400;
+    font-size: 11px;
+    color: #c7c7c7;
+}
+
 /* inicio cabecalho */
 .cabecalho{
     background-color: rgba(255, 255, 255, 1);
@@ -115,13 +130,11 @@ ion-icon{
     z-index: 3;
 }
 
-.stories div{
+.story{
     position: relative;
     
     font-size: 12px;
     text-align: center;
-
-    margin-right: 13px;
 }
 .postImage{
     position: absolute;
@@ -190,7 +203,7 @@ ion-icon{
     margin-left: 5px;
     font-size: 14px;
 }
-.likes b{
+.likes strong{
     font-weight: bold;
 }
 
